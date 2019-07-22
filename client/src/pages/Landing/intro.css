@@ -34,7 +34,7 @@ h2 {
 
 #introBox {
   height: 100%;
-  margin-top: 30%;
+  margin-top: 15rem;
   width: 100%;
 }
 
@@ -46,10 +46,11 @@ h2 {
   font-family: "Merienda", cursive;
   padding: 5px 15px 5px 15px;
   justify-content: center;
+  margin-left: 2.5rem;
   /* position: relative;
   right: -512px; */
-  position: relative;
-  left: 30%;
+  /* position: relative;
+  left: 6rem; */
   z-index: 4;
 }
 

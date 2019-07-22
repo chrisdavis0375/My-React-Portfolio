@@ -31,7 +31,7 @@ class Landing extends React.Component {
           <div className="row">
             <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" />
             <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-              <a href="views/about.html">
+              <a href="/about">
                 <button id="portfoliobtn">Portfolio</button>
               </a>
             </div>
