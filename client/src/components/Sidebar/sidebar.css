@@ -1,0 +1,85 @@
+#nav {
+  z-index: 4;
+  background: red;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbtn {
+  background: transparent;
+  margin: 8px;
+  border: solid #777 1px;
+  font-family: "Exo", sans-serif;
+  color: #ffffff;
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+#myPicture {
+  display: flex;
+  padding: 0px;
+  border-radius: 100px;
+  align-self: center;
+  order: 1;
+}
+.navtext {
+  order: 2;
+  text-align: center;
+  flex-shrink: 1;
+  padding: 0px;
+}
+#navbtnBox {
+  display: flex;
+  order: 3;
+  align-self: center;
+  flex-direction: row;
+}
+
+@media (min-width: 320px) {
+  #myPicture {
+    height: 100px;
+    width: 100px;
+    margin-top: 5%;
+  }
+
+  .navbtn {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  #myPicture {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+  }
+  .navtext {
+    text-align: center;
+  }
+  .navbtn {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  #nav {
+    height: 100vh;
+  }
+  #myPicture {
+    height: 200px;
+    width: 200px;
+  }
+  #navbtnBox {
+    flex-direction: column;
+    position: relative;
+    top: -10%;
+  }
+  .navtext {
+    postion: relative;
+    top: 10%;
+  }
+}
+
+@media (min-width: 1200px) {
+}
